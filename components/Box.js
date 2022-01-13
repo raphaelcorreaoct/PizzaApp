@@ -26,4 +26,8 @@ export const Box = styled.View`
   ${boxCompose};
 `;
 
+export const TouchableBox = styled.TouchableOpacity`
+  ${boxCompose};
+`;
+
 export default Box;

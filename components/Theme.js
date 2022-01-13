@@ -2,6 +2,7 @@ export default {
   colors: {
     surfacePrimary: '#FFF',
     surfaceSecondary: '#FE4E50',
+    surfaceTertiary: '#C4C4C4',
     onSurfacePrimary: '#222',
     onSurfaceSecondary: '#fff',
     textColorPrimary: '#222',
