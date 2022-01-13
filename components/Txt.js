@@ -10,4 +10,4 @@ export const Txt = styled.Text`
   ${fontWeight}
 `;
 
-Txt.defaultProps = {color: 'textColorPrimary'};
+Txt.defaultProps = {color: 'textColorPrimary', fontFamily: 'regular'};
