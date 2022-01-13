@@ -13,7 +13,7 @@ export default {
     medium: 16,
     large: 30,
   },
-  fontSize: {
+  fontSizes: {
     nano: 20,
     small: 22,
     medium: 24,

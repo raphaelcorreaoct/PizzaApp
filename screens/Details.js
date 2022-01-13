@@ -1,14 +1,9 @@
 import React from 'react';
 
-import Box from './../components/Box';
-import {Txt} from './../components/Txt';
+import {Box, Txt} from './../components';
 
 const Details = () => {
-  return (
-    <Box>
-      <Txt>Esse é um teste</Txt>
-    </Box>
-  );
+  return <Box></Box>;
 };
 
 export default Details;
