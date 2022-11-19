@@ -1,7 +1,7 @@
 import React from 'react';
-import {Image, ScrollView, TextInput} from 'react-native';
-import {useTheme} from 'styled-components';
-import {Box, Txt} from '../components';
+import { Image, ScrollView, TextInput, StyleSheet } from 'react-native';
+import { useTheme } from 'styled-components';
+import { Box, Txt } from '../components';
 import Primarybutton from '../components/PrimaryButton';
 import SecondaryButton from '../components/SecondaryButton';
 
@@ -10,7 +10,7 @@ const Details = () => {
 
   return (
     <ScrollView
-      style={{flex: 1}}
+      style={{ flex: 1 }}
       contentContainerStyle={{
         paddingHorizontal: theme.space.large,
         paddingBottom: 50 + theme.space.medium,
@@ -101,13 +101,7 @@ const Details = () => {
               </SecondaryButton>
               <TextInput
                 value="1"
-                style={{
-                  backgroundColor: 'trasnparent',
-                  width: 44,
-                  height: 44,
-                  textAlign: 'center',
-                  fontSize: theme.fontSizes.nano,
-                }}
+                style={[{ fontSize: theme.fontSizes.nano }, styles.input]}
               />
               <SecondaryButton width={44} height={44}>
                 <Txt>+</Txt>
@@ -128,5 +122,15 @@ const Details = () => {
     </ScrollView>
   );
 };
+
+
+const styles = StyleSheet.create({
+  input: {
+    backgroundColor: 'transparent',
+    width: 44,
+    height: 44,
+    textAlign: 'center',
+  },
+});
 
 export default Details;
