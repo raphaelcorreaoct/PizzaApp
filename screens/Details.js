@@ -123,7 +123,6 @@ const Details = () => {
   );
 };
 
-
 const styles = StyleSheet.create({
   input: {
     backgroundColor: 'transparent',
